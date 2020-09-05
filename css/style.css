@@ -126,7 +126,7 @@ h3.heading{
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-#contact span{
+.contactUs span{
   padding-left: 2rem;
   margin-left: 3rem;
   color: hsl(240, 4%, 5%);
