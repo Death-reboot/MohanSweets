@@ -8,7 +8,7 @@ THIS IS THE FIRST LIVE PROJECT WHICH I HAVE CREATED FOR A SWEET SHOP FOR FREE.
 - BOOTSTRAP
 - JavaScript
 
-### WAHT IS HAVE LEARNED:/*
+### WAHT IS HAVE LEARNED:
 - How to use semantics of HTML5
 - basics of CSS
 - How to apply BS4 from its predefined classes
