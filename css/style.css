@@ -15,7 +15,7 @@
 /*============= IMAGE SLIDER =============*/
 
 .carousel-item {
-  background: no-repeat center center scroll;
+  background: no-repeat center center cover scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,26 +33,26 @@
 /*============= MAIN BODY SECTION =============*/
 body{
   font-family: 'Share', cursive;
-  color: #505962;
+  color: #505961;
 }
 /*============= NAVBAR SECTION =============*/
 .navbar{
   font-family: 'Satisfy', cursive;
   text-transform: uppercase;
-  font-weight: 700; 
+  font-weight: 800; 
   letter-spacing: 0.1rem;
   background: rgb(232,172,29);
   background: linear-gradient(90deg, rgba(232,172,29,1) 0%, rgba(232,73,29,1) 100%);
 }
 .navbar-brand{
   font-family: 'Inknut Antiqua', serif;
-  font-weight: 700;
+  font-weight: 800;
 }
 .navbar-nav li{
   padding-right: 1rem;
 }
 .navbar-dark .navbar-nav .nav-link{
-  color: white;
+  color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -88,6 +88,7 @@ body{
   width: 13rem;
   background: rgba(232,73,29,1);
 }
+
 h3.heading{
   font-size: 3rem;
   font-weight: 700;
@@ -95,6 +96,7 @@ h3.heading{
   padding: 1rem;
   padding-bottom: .1rem;
 }
+
 .heading-underline{
   width:7rem;
   height: .2rem;
@@ -102,6 +104,7 @@ h3.heading{
   background: linear-gradient(90deg, rgba(232,172,29,1) 0%, rgba(232,73,29,1) 100%);
   margin: 0 auto;
 }
+
 .card{
   border-style: solid;
   margin: auto;
@@ -109,17 +112,19 @@ h3.heading{
   min-width: 13rem;
   padding: 0;
   height:100%;
-  margin-bottom: .5rem;
-  box-shadow: .1rem .1rem .8rem black;
+  margin-bottom: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.8rem black;
 }
 .card-img{
   padding: 0;
   margin: 0;
   height: 8rem;
 }
+
 #deliveryOption{
   background-color: #e8e8e8;
 }
+
 #deliveryOption li{
   width: 80vw;
   padding-left: 2.5rem;
@@ -146,17 +151,16 @@ footer{
   color: #e8e8e8;
   justify-content: center;
 }
+
 footer .container{
   width: 90vw;
 }
 .shop{
-  
   text-align: center;
-  
 }
+
 .dev{
-  text-align: center;
-  
+  text-align: center;  
 }
 
 @media (max-width: 576px) {  
